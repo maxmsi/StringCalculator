@@ -11,12 +11,15 @@ public class TestClass {
         assertEquals(calculator.Add(emptyString),0);
     }
 
-    public static void testForOneNumber(String number){
+    public static void testForOneNumber(String values){
 
-        assertEquals(calculator.Add(number),1);
+        assertEquals(calculator.Add(values),1);
     }
 
+    public static void twoNumbersSum(String values){
+        assertEquals(calculator.Add(values),6);
 
+    }
 
 
 
@@ -24,7 +27,7 @@ public class TestClass {
     {
        testForEmptyString();
        testForOneNumber("1");
-
+       twoNumbersSum("5,1");
     }
 
 
