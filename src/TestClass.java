@@ -8,13 +8,26 @@ public class TestClass {
 
     public static void testForEmptyString(){
         String emptyString="";
-        assertEquals(calculator.Add(emptyString),1);
+        assertEquals(calculator.Add(emptyString),0);
     }
+
+    public static void testForOneNumber(String number){
+
+        assertEquals(calculator.Add(number),1);
+    }
+
+
+
+
 
     public static void main(String [ ] args)
     {
        testForEmptyString();
+       testForOneNumber("1");
+
     }
+
+
 
 
 
