@@ -10,7 +10,7 @@ public class Calculator {
 
     public int Add(String values){
         int x=400,Sum=0;
-        String [] splitted=values.split(",");
+        String [] splitted=values.split("\\n|\\,");
 
 
         if(values.isEmpty()) {

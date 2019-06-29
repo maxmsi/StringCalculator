@@ -26,12 +26,18 @@ public class TestClass {
         assertEquals(calculator.Add(values),25);
     }
 
+    public static void testForTwoDelimeters10(String values){
+
+        assertEquals(calculator.Add(values),5);
+    }
+
     public static void main(String [ ] args)
     {
        testForEmptyString();
        testForOneNumber("1");
        twoNumbersSum10("5,1,1,1,1,1");
        manyNumbersSum25("10,5,2,2,1,4,1");
+       testForTwoDelimeters10("1\n3\n1,");
     }
 
 
