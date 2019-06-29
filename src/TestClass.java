@@ -16,18 +16,22 @@ public class TestClass {
         assertEquals(calculator.Add(values),1);
     }
 
-    public static void twoNumbersSum(String values){
-        assertEquals(calculator.Add(values),6);
+    public static void twoNumbersSum10(String values){
+        assertEquals(calculator.Add(values),10);
 
     }
 
+    public static void manyNumbersSum25(String values){
 
+        assertEquals(calculator.Add(values),25);
+    }
 
     public static void main(String [ ] args)
     {
        testForEmptyString();
        testForOneNumber("1");
-       twoNumbersSum("5,1");
+       twoNumbersSum10("5,1,1,1,1,1");
+       manyNumbersSum25("10,5,2,2,1,4,1");
     }
 
 
