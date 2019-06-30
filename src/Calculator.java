@@ -26,27 +26,28 @@ public class Calculator {
         }
     }
 
+    public boolean checkNegatives(String values[]) {
+    boolean decision=false;
+        for (int i = 0; i < values.length; i++) {
+            if (parseToInt(values[i]) < 0) {
+                decision=true;
+                System.out.println("Negatives not allowed : " + parseToInt(values[i]));
+            }
+        }
 
+        if (decision) return true;
+        else
+        return false;
+    }
     public int Add(String values){
 
-        /*
-
-         a separate line that looks like this:
-         “//[delimiter]\n[numbers…]” for example “//;\n1;2”
-         should return three where the default delimiter is ‘;’ .
-
-         */
-
-        String delimiter []=values.split(("//"));
         int x=400,Sum=0;
-
         String [] splitted=values.split("\\n|\\,");
 
 
         if(values.isEmpty()) {
             return 0;
         }
-
         else if (!values.isEmpty() && !values.contains("//")){
 
             if(splitted.length<2) {
@@ -57,7 +58,9 @@ public class Calculator {
             else {
 
                 for(int i=0;i<splitted.length;i++){
+                    checkNegatives(splitted);
                     Sum +=parseToInt(splitted[i]);
+
                 }
 
                 return Sum;
@@ -68,13 +71,12 @@ public class Calculator {
         {
            splitted=getNumbers(values);
             for(int i=0;i<splitted.length;i++){
+                checkNegatives(splitted);
                 Sum +=parseToInt(splitted[i]);
             }
             return Sum;
 
         }
-
-
 
     return x;
     }
