@@ -13,7 +13,7 @@ public class Calculator {
     public String [] getNumbers(String numbers){
 
         if(numbers.startsWith("//")){
-            Matcher m = Pattern.compile("//(.)\n(.*)").matcher(numbers);
+            Matcher m = Pattern.compile("//(.+)\n(.*)").matcher(numbers);
             m.matches();
             String defaultDelimiters = m.group(1);
             String numbers2 = m.group(2);

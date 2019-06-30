@@ -31,7 +31,7 @@ public class TestClass {
 
     public static void testForSetingDelimiter(){
 
-        assertEquals(calculator.Add("//#\n1#3"),4);
+        assertEquals(calculator.Add("//&&&&&&&&\n1&&&&&&&&3&&&&&&&&3"),7);
     }
     public static void testForNegatives(String values){
             try{
@@ -55,9 +55,12 @@ public class TestClass {
        //twoNumbersSum10("5,1,1,1,1,1");
        //manyNumbersSum25("10,5,2,2,1,4,1");
        //testForTwoDelimeters10("1\n3\n1,5");
-       //testForSetingDelimiter();
-        // testForNegatives("-1,-4,1000");
+       testForSetingDelimiter();
+       //testForNegatives("-1,-4,1000");
        //ignoreBiggerThan1000("5,1000,2000,998");
+
+
+
     }
 
 
