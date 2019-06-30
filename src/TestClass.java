@@ -1,5 +1,3 @@
-import org.junit.Test;
-import org.testng.AssertJUnit;
 import static org.junit.Assert.*;
 
 public class TestClass {
@@ -28,16 +26,22 @@ public class TestClass {
 
     public static void testForTwoDelimeters10(String values){
 
-        assertEquals(calculator.Add(values),5);
+        assertEquals(calculator.Add(values),10);
+    }
+
+    public static void testForSetingDelimiter(){
+
+        assertEquals(calculator.Add("//#\n1#3"),4);
     }
 
     public static void main(String [ ] args)
     {
-       testForEmptyString();
-       testForOneNumber("1");
-       twoNumbersSum10("5,1,1,1,1,1");
-       manyNumbersSum25("10,5,2,2,1,4,1");
-       testForTwoDelimeters10("1\n3\n1,");
+       //testForEmptyString();
+       //testForOneNumber("1");
+       //twoNumbersSum10("5,1,1,1,1,1");
+       //manyNumbersSum25("10,5,2,2,1,4,1");
+       //testForTwoDelimeters10("1\n3\n1,5");
+       testForSetingDelimiter();
     }
 
 
