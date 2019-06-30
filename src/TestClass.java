@@ -35,9 +35,8 @@ public class TestClass {
     }
     public static void testForNegatives(String values){
             try{
-                assertEquals(calculator.Add(values),3);
+                assertEquals(calculator.Add(values),0);
             } catch(RuntimeException ex){
-                //ok
             }
 
 
@@ -50,14 +49,14 @@ public class TestClass {
 
     public static void main(String [ ] args)
     {
-       //testForEmptyString();
-       //testForOneNumber("1");
-       //twoNumbersSum10("5,1,1,1,1,1");
-       //manyNumbersSum25("10,5,2,2,1,4,1");
-       //testForTwoDelimeters10("1\n3\n1,5");
+       testForEmptyString();
+       testForOneNumber("1");
+       twoNumbersSum10("5,1,1,1,1,1");
+       manyNumbersSum25("10,5,2,2,1,4,1");
+       testForTwoDelimeters10("1\n3\n1,5");
        testForSetingDelimiter();
-       //testForNegatives("-1,-4,1000");
-       //ignoreBiggerThan1000("5,1000,2000,998");
+       testForNegatives("3,-1,-4,1000");
+       ignoreBiggerThan1000("5,1000,2000,998");
 
 
 

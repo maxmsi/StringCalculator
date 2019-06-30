@@ -9,26 +9,19 @@ public class Calculator {
 
         return Integer.parseInt(string);
     }
-
     public String [] getNumbers(String numbers){
 
         if(numbers.startsWith("//")){
             Matcher m = Pattern.compile("//(.+)(.+)\n(.*)").matcher(numbers);
             m.matches();
             String defaultDelimiters = m.group(1);
-            System.out.println(defaultDelimiters);
             String nextDelimiter = m.group(2);
-            System.out.println(nextDelimiter);
             String numbers2 = m.group(3);
-            System.out.println(numbers2);
-
-
             return numbers2.split("("+defaultDelimiters+"|"+nextDelimiter+")");
         }
         else return numbers.split("\\n|\\,");
 
     }
-
     public boolean checkNegatives(String values[]) {
     boolean decision=false;
         for (int i = 0; i < values.length; i++) {
@@ -36,8 +29,8 @@ public class Calculator {
                 decision=true;
                 System.out.println("Negatives not allowed : " + parseToInt(values[i]));
             }
-        }
 
+        }
         if (decision) return true;
         else
         return false;
@@ -46,7 +39,6 @@ public class Calculator {
 
         int x=400,Sum=0;
         String [] splitted=values.split("\\n|\\,");
-
 
         if(values.isEmpty()) {
             return 0;
@@ -57,15 +49,14 @@ public class Calculator {
 
                 x = parseToInt(values); }
 
-
             else {
 
                 for(int i=0;i<splitted.length;i++){
-                    checkNegatives(splitted);
-                    if(parseToInt(splitted[i])>=1000) continue;
+                    if(!checkNegatives(splitted)) {
+                        if (parseToInt(splitted[i]) >= 1000) continue;
 
-                    Sum +=parseToInt(splitted[i]);
-
+                        Sum += parseToInt(splitted[i]);
+                    }
                 }
 
                 return Sum;
@@ -75,12 +66,13 @@ public class Calculator {
         else if(values.contains("//"))
         {
            splitted=getNumbers(values);
+
             for(int i=0;i<splitted.length;i++){
 
-                checkNegatives(splitted);
-                if(parseToInt(splitted[i])>=1000) continue;
-                Sum +=parseToInt(splitted[i]);
-
+                if(!checkNegatives(splitted)) {
+                    if (parseToInt(splitted[i]) >= 1000) continue;
+                    Sum += parseToInt(splitted[i]);
+                }
             }
             return Sum;
 
