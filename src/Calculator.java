@@ -16,15 +16,17 @@ public class Calculator {
             Matcher m = Pattern.compile("//(.+)(.+)\n(.*)").matcher(numbers);
             m.matches();
             String defaultDelimiters = m.group(1);
+            System.out.println(defaultDelimiters);
             String nextDelimiter = m.group(2);
+            System.out.println(nextDelimiter);
             String numbers2 = m.group(3);
+            System.out.println(numbers2);
 
 
             return numbers2.split("("+defaultDelimiters+"|"+nextDelimiter+")");
         }
-        else{
-            return numbers.split("\\n|\\,");
-        }
+        else return numbers.split("\\n|\\,");
+
     }
 
     public boolean checkNegatives(String values[]) {
@@ -74,11 +76,11 @@ public class Calculator {
         {
            splitted=getNumbers(values);
             for(int i=0;i<splitted.length;i++){
+
                 checkNegatives(splitted);
-
                 if(parseToInt(splitted[i])>=1000) continue;
-
                 Sum +=parseToInt(splitted[i]);
+
             }
             return Sum;
 

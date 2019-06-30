@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="422b177c-467e-481a-8d0f-fa722231f6b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StringCalculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringCalculator/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StringCalculator/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringCalculator/TestClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestClass.java" afterDir="false" />
     </list>
@@ -26,12 +24,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state relative-caret-position="161">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#parseToInt#0;class#Calculator#0" />
-                <element signature="method#checkNegatives#0;class#Calculator#0" />
                 <element signature="e#552#585#1" />
                 <element signature="e#972#1139#1" />
                 <element signature="e#1025#1096#1" />
@@ -43,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+            <state relative-caret-position="90">
+              <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
               <folding>
                 <element signature="method#testForEmptyString#0;class#TestClass#0" />
                 <element signature="method#testForOneNumber#0;class#TestClass#0" />
@@ -240,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561894512527</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" Step 8. Allow multiple delimiters like this: “//[delim1][delim2]\n”">
+      <created>1561896991222</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561896991222</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -370,14 +373,15 @@
     <MESSAGE value=" Step 5. Calling Add with a negative number will throw an exception “negatives not allowed”" />
     <MESSAGE value=" Step 6. Ignore number greater than 1000" />
     <MESSAGE value=" Step 7. Delimiters can be of any length with the following format: “//[delimiter]\n”" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Step 7. Delimiters can be of any length with the following format: “//[delimiter]\n”" />
+    <MESSAGE value=" Step 8. Allow multiple delimiters like this: “//[delim1][delim2]\n”" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Step 8. Allow multiple delimiters like this: “//[delim1][delim2]\n”" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Calculator.java</url>
-          <line>66</line>
+          <line>62</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -391,8 +395,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+        <state relative-caret-position="90">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
           <folding>
             <element signature="method#testForEmptyString#0;class#TestClass#0" />
             <element signature="method#testForOneNumber#0;class#TestClass#0" />
@@ -407,12 +411,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        <state relative-caret-position="161">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#parseToInt#0;class#Calculator#0" />
-            <element signature="method#checkNegatives#0;class#Calculator#0" />
             <element signature="e#552#585#1" />
             <element signature="e#972#1139#1" />
             <element signature="e#1025#1096#1" />
