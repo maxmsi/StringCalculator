@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="422b177c-467e-481a-8d0f-fa722231f6b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StringCalculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringCalculator/Calculator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StringCalculator/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringCalculator/TestClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
@@ -19,33 +16,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="StringCalculator" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="131">
+              <caret line="61" column="62" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#parseToInt#0;class#Calculator#0" />
+                <element signature="method#getNumbers#0;class#Calculator#0" />
+                <element signature="method#checkNegatives#0;class#Calculator#0" />
+                <element signature="e#552#585#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+            <state relative-caret-position="265">
+              <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#testForEmptyString#0;class#TestClass#0" />
+                <element signature="method#testForOneNumber#0;class#TestClass#0" />
+                <element signature="method#twoNumbersSum10#0;class#TestClass#0" />
+                <element signature="method#manyNumbersSum25#0;class#TestClass#0" />
+                <element signature="method#testForTwoDelimeters10#0;class#TestClass#0" />
+                <element signature="method#testFOrSetingDelimiter#0;class#TestClass#0" />
+                <element signature="method#testForNegatives#0;class#TestClass#0" />
               </folding>
             </state>
           </provider>
@@ -66,8 +72,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Calculator.java" />
         <option value="$PROJECT_DIR$/src/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/Calculator.java" />
       </list>
     </option>
   </component>
@@ -90,8 +96,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestClass">
     <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="10" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -149,9 +155,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in StringCalculator (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in StringCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestClass" />
+        <item itemvalue="JUnit.All in StringCalculator (1)" />
+        <item itemvalue="JUnit.All in StringCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -180,8 +204,37 @@
       <option name="project" value="LOCAL" />
       <updated>1561847528956</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="two Delimeters added">
+      <created>1561848380283</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561848380283</updated>
+    </task>
+    <task id="LOCAL-00004" summary="regex for setting delimiters on input String.">
+      <created>1561891629684</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561891629684</updated>
+    </task>
+    <task id="LOCAL-00005" summary=" Step 5. Calling Add with a negative number will throw an exception “negatives not allowed”">
+      <created>1561892926746</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561892926746</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_StringCalculator - 2019.06.30 at 00h 46m 33s.xml">
+      <configuration name="All in StringCalculator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_StringCalculator_(1) - 2019.06.30 at 00h 47m 19s.xml">
+      <configuration name="All in StringCalculator (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -196,25 +249,25 @@
     <frame x="45" y="-4" width="1321" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.50222224" side_tool="true" weight="0.24941176" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49776787" visible="true" weight="0.24941176" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49776787" visible="true" weight="0.25333333" />
       <window_info id="Structure" order="1" sideWeight="0.50223213" side_tool="true" weight="0.24941176" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32884902" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32884902" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32884902" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.50222224" side_tool="true" weight="0.24941176" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32884902" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40807176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32935917" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32884902" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32884902" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039214" side_tool="true" weight="0.32884902" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49960783" weight="0.32884902" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -279,33 +332,60 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testForOneNumber done +&#10;twoNumberSum done +" />
     <MESSAGE value="set to handle with unknown amount of numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="set to handle with unknown amount of numbers" />
+    <MESSAGE value="two Delimeters added" />
+    <MESSAGE value="regex for setting delimiters on input String." />
+    <MESSAGE value=" Step 5. Calling Add with a negative number will throw an exception “negatives not allowed”" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Step 5. Calling Add with a negative number will throw an exception “negatives not allowed”" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="265">
+          <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
           <folding>
-            <element signature="method#parseToInt#0;class#Calculator#0" />
+            <element signature="method#testForEmptyString#0;class#TestClass#0" />
+            <element signature="method#testForOneNumber#0;class#TestClass#0" />
+            <element signature="method#twoNumbersSum10#0;class#TestClass#0" />
+            <element signature="method#manyNumbersSum25#0;class#TestClass#0" />
+            <element signature="method#testForTwoDelimeters10#0;class#TestClass#0" />
+            <element signature="method#testFOrSetingDelimiter#0;class#TestClass#0" />
+            <element signature="method#testForNegatives#0;class#TestClass#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestClass.java">
+    <entry file="file://$PROJECT_DIR$/src/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        <state relative-caret-position="131">
+          <caret line="61" column="62" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#parseToInt#0;class#Calculator#0" />
+            <element signature="method#getNumbers#0;class#Calculator#0" />
+            <element signature="method#checkNegatives#0;class#Calculator#0" />
+            <element signature="e#552#585#1" />
           </folding>
         </state>
       </provider>

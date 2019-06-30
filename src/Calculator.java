@@ -59,6 +59,8 @@ public class Calculator {
 
                 for(int i=0;i<splitted.length;i++){
                     checkNegatives(splitted);
+                    if(parseToInt(splitted[i])>=1000) continue;
+
                     Sum +=parseToInt(splitted[i]);
 
                 }
@@ -72,6 +74,9 @@ public class Calculator {
            splitted=getNumbers(values);
             for(int i=0;i<splitted.length;i++){
                 checkNegatives(splitted);
+
+                if(parseToInt(splitted[i])>=1000) continue;
+
                 Sum +=parseToInt(splitted[i]);
             }
             return Sum;

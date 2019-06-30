@@ -43,7 +43,10 @@ public class TestClass {
 
 
     }
+    public static void ignoreBiggerThan1000(String values){
 
+        assertEquals(calculator.Add(values),1003);
+    }
 
     public static void main(String [ ] args)
     {
@@ -53,7 +56,8 @@ public class TestClass {
        //manyNumbersSum25("10,5,2,2,1,4,1");
        //testForTwoDelimeters10("1\n3\n1,5");
        //testForSetingDelimiter();
-        testForNegatives("-1,-4,-5");
+        // testForNegatives("-1,-4,1000");
+       //ignoreBiggerThan1000("5,1000,2000,998");
     }
 
 
