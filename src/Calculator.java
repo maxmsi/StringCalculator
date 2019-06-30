@@ -13,15 +13,16 @@ public class Calculator {
     public String [] getNumbers(String numbers){
 
         if(numbers.startsWith("//")){
-            Matcher m = Pattern.compile("//(.+)\n(.*)").matcher(numbers);
+            Matcher m = Pattern.compile("//(.+)(.+)\n(.*)").matcher(numbers);
             m.matches();
             String defaultDelimiters = m.group(1);
-            String numbers2 = m.group(2);
-            return numbers2.split(defaultDelimiters);
+            String nextDelimiter = m.group(2);
+            String numbers2 = m.group(3);
 
+
+            return numbers2.split("("+defaultDelimiters+"|"+nextDelimiter+")");
         }
         else{
-
             return numbers.split("\\n|\\,");
         }
     }

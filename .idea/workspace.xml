@@ -26,14 +26,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="61" column="62" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
+            <state relative-caret-position="221">
+              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#parseToInt#0;class#Calculator#0" />
-                <element signature="method#getNumbers#0;class#Calculator#0" />
                 <element signature="method#checkNegatives#0;class#Calculator#0" />
                 <element signature="e#552#585#1" />
+                <element signature="e#972#1139#1" />
+                <element signature="e#1025#1096#1" />
               </folding>
             </state>
           </provider>
@@ -42,16 +43,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+            <state relative-caret-position="242">
+              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
               <folding>
                 <element signature="method#testForEmptyString#0;class#TestClass#0" />
                 <element signature="method#testForOneNumber#0;class#TestClass#0" />
                 <element signature="method#twoNumbersSum10#0;class#TestClass#0" />
                 <element signature="method#manyNumbersSum25#0;class#TestClass#0" />
                 <element signature="method#testForTwoDelimeters10#0;class#TestClass#0" />
-                <element signature="method#testFOrSetingDelimiter#0;class#TestClass#0" />
                 <element signature="method#testForNegatives#0;class#TestClass#0" />
+                <element signature="method#ignoreBiggerThan1000#0;class#TestClass#0" />
               </folding>
             </state>
           </provider>
@@ -225,7 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561892926746</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" Step 6. Ignore number greater than 1000">
+      <created>1561893357906</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561893357906</updated>
+    </task>
+    <task id="LOCAL-00007" summary=" Step 7. Delimiters can be of any length with the following format: “//[delimiter]\n”">
+      <created>1561894512527</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561894512527</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -353,7 +368,21 @@
     <MESSAGE value="two Delimeters added" />
     <MESSAGE value="regex for setting delimiters on input String." />
     <MESSAGE value=" Step 5. Calling Add with a negative number will throw an exception “negatives not allowed”" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Step 5. Calling Add with a negative number will throw an exception “negatives not allowed”" />
+    <MESSAGE value=" Step 6. Ignore number greater than 1000" />
+    <MESSAGE value=" Step 7. Delimiters can be of any length with the following format: “//[delimiter]\n”" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Step 7. Delimiters can be of any length with the following format: “//[delimiter]\n”" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Calculator.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -362,30 +391,31 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+        <state relative-caret-position="242">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
           <folding>
             <element signature="method#testForEmptyString#0;class#TestClass#0" />
             <element signature="method#testForOneNumber#0;class#TestClass#0" />
             <element signature="method#twoNumbersSum10#0;class#TestClass#0" />
             <element signature="method#manyNumbersSum25#0;class#TestClass#0" />
             <element signature="method#testForTwoDelimeters10#0;class#TestClass#0" />
-            <element signature="method#testFOrSetingDelimiter#0;class#TestClass#0" />
             <element signature="method#testForNegatives#0;class#TestClass#0" />
+            <element signature="method#ignoreBiggerThan1000#0;class#TestClass#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="61" column="62" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
+        <state relative-caret-position="221">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#parseToInt#0;class#Calculator#0" />
-            <element signature="method#getNumbers#0;class#Calculator#0" />
             <element signature="method#checkNegatives#0;class#Calculator#0" />
             <element signature="e#552#585#1" />
+            <element signature="e#972#1139#1" />
+            <element signature="e#1025#1096#1" />
           </folding>
         </state>
       </provider>

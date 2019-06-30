@@ -31,7 +31,7 @@ public class TestClass {
 
     public static void testForSetingDelimiter(){
 
-        assertEquals(calculator.Add("//&&&&&&&&\n1&&&&&&&&3&&&&&&&&3"),7);
+        assertEquals(calculator.Add("//&%\n13&3%6%3"),25);
     }
     public static void testForNegatives(String values){
             try{
